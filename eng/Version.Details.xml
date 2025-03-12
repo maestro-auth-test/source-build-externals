@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
+  <Source Uri="https://github.com/maestro-auth-test/dotnet" Sha="30396b326fd26d00978521795f7d871e22a7e292" BarId="431" />
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.Build" Version="17.14.0-preview-24619-01">
-      <Uri>https://github.com/dotnet/msbuild</Uri>
-      <Sha>e9b99f554a3c298e1106ea171f5a0462780af2c5</Sha>
+    <Dependency Name="Microsoft.Build" Version="17.14.0-preview-25161-120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <!-- Intermediate is necessary for source build. -->
     <Dependency Name="Microsoft.SourceBuild.Intermediate.msbuild" Version="17.14.0-preview-24619-01">
@@ -11,9 +12,9 @@
       <Sha>e9b99f554a3c298e1106ea171f5a0462780af2c5</Sha>
       <SourceBuild RepoName="msbuild" ManagedOnly="true" />
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25157.1">
-      <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>1ec6078c26e4a60b77d8fe64881491cd28335a08</Sha>
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="10.0.0-beta.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <!-- Intermediate is necessary for source build. -->
     <Dependency Name="Microsoft.SourceBuild.Intermediate.arcade" Version="10.0.0-beta.25157.1">
