@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
-  <Source Uri="https://github.com/dotnet/dotnet" Mapping="source-build-externals" Sha="7e27ec4c314eb774eae2c54ce4682c98973c7c60" BarId="270662" />
+  <Source Uri="https://github.com/maestro-auth-test/dotnet" Mapping="source-build-externals" Sha="5ddc87c589791c3e5d8645ccd4b6b154923d4df1" BarId="318" />
   <ToolsetDependencies>
     <Dependency Name="Microsoft.Build" Version="17.14.0-preview-24619-01">
       <Uri>https://github.com/dotnet/msbuild</Uri>
